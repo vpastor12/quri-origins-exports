@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "products": "Productos",
+    "about": "Sobre Perú",
+    "contact": "Contáctanos"
+  },
+  "hero": {
+    "title": "Agricultura Peruana Premium",
+    "subtitle": "Para Mercados Globales",
+    "description": "Trader y broker experto conectando empresas internacionales con los mejores productos agrícolas de Perú",
+    "cta": "Comienza a Exportar Hoy"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales para el comercio agrícola internacional",
+    "export": {
+      "title": "Trading de Exportación",
+      "description": "Facilitación integral de exportaciones agrícolas desde Perú hacia mercados globales con total cumplimiento y soporte documental."
+    },
+    "brokerage": {
+      "title": "Servicios de Intermediación",
+      "description": "Conectando compradores y proveedores con relaciones de confianza y conocimiento profundo del sector agrícola peruano."
+    },
+    "quality": {
+      "title": "Aseguramiento de Calidad",
+      "description": "Procesos rigurosos de control de calidad y certificación garantizando productos premium que cumplen estándares internacionales."
+    },
+    "market": {
+      "title": "Inteligencia de Mercado",
+      "description": "Insights estratégicos y análisis de mercado para optimizar tu cadena de suministro y maximizar oportunidades comerciales."
+    }
+  },
+  "products": {
+    "title": "Productos Destacados",
+    "subtitle": "Los mejores productos agrícolas de Perú, desde los Andes hasta la Amazonía",
+    "quinoa": {
+      "name": "Quinua",
+      "description": "Quinua orgánica premium en variedades blanca, roja y negra de granjas andinas de alta altitud."
+    },
+    "coffee": {
+      "name": "Café",
+      "description": "Granos de café arábica de grado especial de plantaciones peruanas sostenibles."
+    },
+    "cacao": {
+      "name": "Cacao",
+      "description": "Granos de cacao de fino aroma de la región amazónica, apreciados por chocolateros de todo el mundo."
+    },
+    "other": "También disponibles: Superalimentos (maca, lúcuma, sacha inchi), papas nativas, espárragos, aguacates y más"
+  },
+  "about": {
+    "title": "¿Por qué Perú?",
+    "subtitle": "Una potencia agrícola global con siglos de tradición en agricultura",
+    "diversity": {
+      "title": "Diversidad Geográfica",
+      "description": "Desde valles costeros hasta altiplanos andinos y selva amazónica, Perú ofrece condiciones de cultivo únicas."
+    },
+    "biodiversity": {
+      "title": "Capital de Biodiversidad",
+      "description": "Hogar de una increíble biodiversidad agrícola con miles de variedades nativas de cultivos."
+    },
+    "recognition": {
+      "title": "Reconocimiento Global",
+      "description": "Los productos peruanos ganan consistentemente premios internacionales por calidad y sostenibilidad."
+    },
+    "description": "Perú es uno de los orígenes más importantes del mundo para productos agrícolas orgánicos y especiales. Con sus diversos climas, suelos ricos y compromiso con prácticas agrícolas sostenibles, Perú produce algunos de los cultivos más buscados del planeta para mercados internacionales exigentes."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Listo para explorar la excelencia agrícola peruana? Contáctanos hoy",
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "company": "Nombre de la Empresa",
+      "message": "Cuéntanos sobre tus requerimientos",
+      "submit": "Enviar Mensaje"
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "location": "Ubicación",
+      "hours": "Horario de atención: Lunes - Viernes, 9:00 AM - 6:00 PM (PET)"
+    }
+  },
+  "footer": {
+    "tagline": "Quri Origins - Conectando al mundo con los mejores productos agrícolas de Perú",
+    "rights": "Quri Origins. Todos los derechos reservados."
+  }
+}

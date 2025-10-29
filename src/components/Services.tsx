@@ -1,39 +1,41 @@
 import { ShieldCheck, Globe, TrendingUp, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-
-const services = [
-  {
-    icon: Globe,
-    title: "Export Trading",
-    description: "Seamless facilitation of agricultural exports from Peru to global markets with full compliance and documentation support.",
-  },
-  {
-    icon: Users,
-    title: "Brokerage Services",
-    description: "Connecting buyers and suppliers with trusted relationships and deep market knowledge across the Peruvian agricultural sector.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Quality Assurance",
-    description: "Rigorous quality control and certification processes ensuring premium products meet international standards.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Market Intelligence",
-    description: "Strategic insights and market analysis to optimize your supply chain and maximize trading opportunities.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
+
+  const services = [
+    {
+      icon: Globe,
+      titleKey: "services.export.title",
+      descriptionKey: "services.export.description",
+    },
+    {
+      icon: Users,
+      titleKey: "services.brokerage.title",
+      descriptionKey: "services.brokerage.description",
+    },
+    {
+      icon: ShieldCheck,
+      titleKey: "services.quality.title",
+      descriptionKey: "services.quality.description",
+    },
+    {
+      icon: TrendingUp,
+      titleKey: "services.market.title",
+      descriptionKey: "services.market.description",
+    },
+  ];
   return (
     <section id="services" className="py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Our Services
+            {t('services.title')}
           </h2>
           <p className="font-inter text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive solutions for international agricultural trade
+            {t('services.subtitle')}
           </p>
         </div>
 
@@ -45,10 +47,10 @@ const Services = () => {
                   <service.icon className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-playfair text-xl font-semibold mb-3 text-foreground">
-                  {service.title}
+                  {t(service.titleKey)}
                 </h3>
                 <p className="font-inter text-muted-foreground">
-                  {service.description}
+                  {t(service.descriptionKey)}
                 </p>
               </CardContent>
             </Card>

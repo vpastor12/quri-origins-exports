@@ -1,15 +1,22 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Languages } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/quri-logo.jpg";
+import { useTranslation } from "react-i18next";
+import logo from "@/assets/quri-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t, i18n } = useTranslation();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     element?.scrollIntoView({ behavior: "smooth" });
     setIsOpen(false);
+  };
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'en' ? 'es' : 'en';
+    i18n.changeLanguage(newLang);
   };
 
   return (
@@ -26,25 +33,32 @@ const Navigation = () => {
               onClick={() => scrollToSection("services")}
               className="text-foreground hover:text-primary transition-colors font-inter font-medium"
             >
-              Services
+              {t('nav.services')}
             </button>
             <button
               onClick={() => scrollToSection("products")}
               className="text-foreground hover:text-primary transition-colors font-inter font-medium"
             >
-              Products
+              {t('nav.products')}
             </button>
             <button
               onClick={() => scrollToSection("about")}
               className="text-foreground hover:text-primary transition-colors font-inter font-medium"
             >
-              About Peru
+              {t('nav.about')}
+            </button>
+            <button
+              onClick={toggleLanguage}
+              className="text-foreground hover:text-primary transition-colors font-inter font-medium flex items-center space-x-1"
+            >
+              <Languages size={18} />
+              <span>{i18n.language === 'en' ? 'ES' : 'EN'}</span>
             </button>
             <Button
               onClick={() => scrollToSection("contact")}
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-inter"
             >
-              Contact Us
+              {t('nav.contact')}
             </Button>
           </div>
 
@@ -65,25 +79,32 @@ const Navigation = () => {
                 onClick={() => scrollToSection("services")}
                 className="text-foreground hover:text-primary transition-colors font-inter font-medium text-left"
               >
-                Services
+                {t('nav.services')}
               </button>
               <button
                 onClick={() => scrollToSection("products")}
                 className="text-foreground hover:text-primary transition-colors font-inter font-medium text-left"
               >
-                Products
+                {t('nav.products')}
               </button>
               <button
                 onClick={() => scrollToSection("about")}
                 className="text-foreground hover:text-primary transition-colors font-inter font-medium text-left"
               >
-                About Peru
+                {t('nav.about')}
+              </button>
+              <button
+                onClick={toggleLanguage}
+                className="text-foreground hover:text-primary transition-colors font-inter font-medium text-left flex items-center space-x-2"
+              >
+                <Languages size={18} />
+                <span>{i18n.language === 'en' ? 'Español' : 'English'}</span>
               </button>
               <Button
                 onClick={() => scrollToSection("contact")}
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-inter"
               >
-                Contact Us
+                {t('nav.contact')}
               </Button>
             </div>
           </div>

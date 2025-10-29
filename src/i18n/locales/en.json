@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "services": "Services",
+    "products": "Products",
+    "about": "About Peru",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Premium Peruvian Agriculture",
+    "subtitle": "For Global Markets",
+    "description": "Expert trader and broker connecting international companies with Peru's finest agricultural products",
+    "cta": "Start Exporting Today"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for international agricultural trade",
+    "export": {
+      "title": "Export Trading",
+      "description": "Seamless facilitation of agricultural exports from Peru to global markets with full compliance and documentation support."
+    },
+    "brokerage": {
+      "title": "Brokerage Services",
+      "description": "Connecting buyers and suppliers with trusted relationships and deep market knowledge across the Peruvian agricultural sector."
+    },
+    "quality": {
+      "title": "Quality Assurance",
+      "description": "Rigorous quality control and certification processes ensuring premium products meet international standards."
+    },
+    "market": {
+      "title": "Market Intelligence",
+      "description": "Strategic insights and market analysis to optimize your supply chain and maximize trading opportunities."
+    }
+  },
+  "products": {
+    "title": "Featured Products",
+    "subtitle": "Peru's finest agricultural exports, sourced from the Andes to the Amazon",
+    "quinoa": {
+      "name": "Quinoa",
+      "description": "Premium organic quinoa in white, red, and black varieties from high-altitude Andean farms."
+    },
+    "coffee": {
+      "name": "Coffee",
+      "description": "Specialty-grade Arabica coffee beans from sustainable Peruvian plantations."
+    },
+    "cacao": {
+      "name": "Cacao",
+      "description": "Fine-flavor cacao beans from the Amazon region, prized by chocolatiers worldwide."
+    },
+    "other": "Also available: Superfoods (maca, lucuma, sacha inchi), native potatoes, asparagus, avocados, and more"
+  },
+  "about": {
+    "title": "Why Peru?",
+    "subtitle": "A global agricultural powerhouse with centuries of farming tradition",
+    "diversity": {
+      "title": "Geographic Diversity",
+      "description": "From coastal valleys to Andean highlands and Amazon rainforest, Peru offers unique growing conditions."
+    },
+    "biodiversity": {
+      "title": "Biodiversity Capital",
+      "description": "Home to incredible agricultural biodiversity with thousands of native crop varieties."
+    },
+    "recognition": {
+      "title": "Global Recognition",
+      "description": "Peruvian products consistently win international awards for quality and sustainability."
+    },
+    "description": "Peru is one of the world's most important origins for organic and specialty agricultural products. With its diverse climates, rich soil, and commitment to sustainable farming practices, Peru produces some of the planet's most sought-after crops for discerning international markets."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to explore Peruvian agricultural excellence? Contact us today",
+    "form": {
+      "title": "Send us a message",
+      "name": "Your Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "message": "Tell us about your requirements",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "hours": "Business hours: Monday - Friday, 9:00 AM - 6:00 PM (PET)"
+    }
+  },
+  "footer": {
+    "tagline": "Quri Origins - Connecting the world with Peru's finest agricultural products",
+    "rights": "Quri Origins. All rights reserved."
+  }
+}

@@ -3,48 +3,51 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Get In Touch
+            {t('contact.title')}
           </h2>
           <p className="font-inter text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to explore Peruvian agricultural excellence? Contact us today
+            {t('contact.subtitle')}
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div>
             <h3 className="font-playfair text-2xl font-semibold mb-6 text-foreground">
-              Send us a message
+              {t('contact.form.title')}
             </h3>
             <form className="space-y-4">
               <div>
                 <Input
-                  placeholder="Your Name"
+                  placeholder={t('contact.form.name')}
                   className="font-inter"
                 />
               </div>
               <div>
                 <Input
                   type="email"
-                  placeholder="Email Address"
+                  placeholder={t('contact.form.email')}
                   className="font-inter"
                 />
               </div>
               <div>
                 <Input
-                  placeholder="Company Name"
+                  placeholder={t('contact.form.company')}
                   className="font-inter"
                 />
               </div>
               <div>
                 <Textarea
-                  placeholder="Tell us about your requirements"
+                  placeholder={t('contact.form.message')}
                   rows={6}
                   className="font-inter"
                 />
@@ -53,14 +56,14 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-inter"
               >
-                Send Message
+                {t('contact.form.submit')}
               </Button>
             </form>
           </div>
 
           <div className="space-y-6">
             <h3 className="font-playfair text-2xl font-semibold mb-6 text-foreground">
-              Contact Information
+              {t('contact.info.title')}
             </h3>
             
             <Card className="border-border">
@@ -70,7 +73,7 @@ const Contact = () => {
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-inter font-semibold mb-1 text-foreground">Email</h4>
+                    <h4 className="font-inter font-semibold mb-1 text-foreground">{t('contact.info.email')}</h4>
                     <p className="font-inter text-muted-foreground">info@quriorigins.com</p>
                   </div>
                 </div>
@@ -84,7 +87,7 @@ const Contact = () => {
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-inter font-semibold mb-1 text-foreground">Phone</h4>
+                    <h4 className="font-inter font-semibold mb-1 text-foreground">{t('contact.info.phone')}</h4>
                     <p className="font-inter text-muted-foreground">+51 1 234 5678</p>
                   </div>
                 </div>
@@ -98,7 +101,7 @@ const Contact = () => {
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-inter font-semibold mb-1 text-foreground">Location</h4>
+                    <h4 className="font-inter font-semibold mb-1 text-foreground">{t('contact.info.location')}</h4>
                     <p className="font-inter text-muted-foreground">Lima, Peru</p>
                   </div>
                 </div>
@@ -107,7 +110,7 @@ const Contact = () => {
 
             <div className="pt-6">
               <p className="font-inter text-sm text-muted-foreground">
-                Business hours: Monday - Friday, 9:00 AM - 6:00 PM (PET)
+                {t('contact.info.hours')}
               </p>
             </div>
           </div>
