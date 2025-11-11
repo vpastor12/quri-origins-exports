@@ -1,4 +1,4 @@
-import { ShieldCheck, Globe, TrendingUp, Users } from "lucide-react";
+import { Lightbulb, Globe, TrendingUp, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
 
@@ -17,9 +17,9 @@ const Services = () => {
       descriptionKey: "services.brokerage.description",
     },
     {
-      icon: ShieldCheck,
-      titleKey: "services.quality.title",
-      descriptionKey: "services.quality.description",
+      icon: Lightbulb,
+      titleKey: "services.advisory.title",
+      descriptionKey: "services.advisory.description",
     },
     {
       icon: TrendingUp,

@@ -22,9 +22,9 @@
       "title": "Servicios de Intermediación",
       "description": "Conectando compradores y proveedores con relaciones de confianza y conocimiento profundo del sector agrícola peruano."
     },
-    "quality": {
-      "title": "Aseguramiento de Calidad",
-      "description": "Procesos rigurosos de control de calidad y certificación garantizando productos premium que cumplen estándares internacionales."
+    "advisory": {
+      "title": "Servicios de Asesoría",
+      "description": "Orientación experta sobre selección de productos, tendencias del mercado y estrategias de desarrollo empresarial."
     },
     "market": {
       "title": "Inteligencia de Mercado",
@@ -38,15 +38,15 @@
       "name": "Quinua",
       "description": "Quinua orgánica premium en variedades blanca, roja y negra de granjas andinas de alta altitud."
     },
-    "coffee": {
-      "name": "Café",
-      "description": "Granos de café arábica de grado especial de plantaciones peruanas sostenibles."
+    "corn": {
+      "name": "Maíz Gigante",
+      "description": "Maíz gigante peruano con granos grandes y tiernos, perfecto para platos tradicionales y preparaciones gourmet."
     },
-    "cacao": {
-      "name": "Cacao",
-      "description": "Granos de cacao de fino aroma de la región amazónica, apreciados por chocolateros de todo el mundo."
+    "bean": {
+      "name": "Frijol Canario",
+      "description": "Frijoles canarios peruanos nutritivos, conocidos por su textura cremosa y sabor suave y mantecoso."
     },
-    "other": "También disponibles: Superalimentos (maca, lúcuma, sacha inchi), papas nativas, espárragos, aguacates y más"
+    "other": "También disponibles: Frijol mantequilla, maca, frijol mungo, lúcuma, chía, productos en polvo, y muchos más"
   },
   "about": {
     "title": "¿Por qué Perú?",
@@ -78,8 +78,8 @@
     },
     "info": {
       "title": "Información de Contacto",
-      "email": "Correo",
-      "phone": "Teléfono",
+      "email": "contact@quriorigins.co.site",
+      "phone": "+51 941 478 762",
       "location": "Ubicación",
       "hours": "Horario de atención: Lunes - Viernes, 9:00 AM - 6:00 PM (PET)"
     }

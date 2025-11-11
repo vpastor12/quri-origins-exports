@@ -74,7 +74,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-inter font-semibold mb-1 text-foreground">{t('contact.info.email')}</h4>
-                    <p className="font-inter text-muted-foreground">info@quriorigins.com</p>
+                    <p className="font-inter text-muted-foreground">contact@quriorigins.co.site</p>
                   </div>
                 </div>
               </CardContent>
@@ -88,7 +88,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-inter font-semibold mb-1 text-foreground">{t('contact.info.phone')}</h4>
-                    <p className="font-inter text-muted-foreground">+51 1 234 5678</p>
+                    <p className="font-inter text-muted-foreground">+51 941 478 762</p>
                   </div>
                 </div>
               </CardContent>

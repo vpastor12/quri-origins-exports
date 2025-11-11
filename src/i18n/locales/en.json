@@ -22,9 +22,9 @@
       "title": "Brokerage Services",
       "description": "Connecting buyers and suppliers with trusted relationships and deep market knowledge across the Peruvian agricultural sector."
     },
-    "quality": {
-      "title": "Quality Assurance",
-      "description": "Rigorous quality control and certification processes ensuring premium products meet international standards."
+    "advisory": {
+      "title": "Advisory Services",
+      "description": "Expert guidance on product selection, market trends, and business development strategies."
     },
     "market": {
       "title": "Market Intelligence",
@@ -38,15 +38,15 @@
       "name": "Quinoa",
       "description": "Premium organic quinoa in white, red, and black varieties from high-altitude Andean farms."
     },
-    "coffee": {
-      "name": "Coffee",
-      "description": "Specialty-grade Arabica coffee beans from sustainable Peruvian plantations."
+    "corn": {
+      "name": "Giant Corn",
+      "description": "Peruvian giant corn with large, tender kernels, perfect for traditional dishes and gourmet preparations."
     },
-    "cacao": {
-      "name": "Cacao",
-      "description": "Fine-flavor cacao beans from the Amazon region, prized by chocolatiers worldwide."
+    "bean": {
+      "name": "Canary Bean",
+      "description": "Nutritious Peruvian canary beans, known for their creamy texture and mild, buttery flavor."
     },
-    "other": "Also available: Superfoods (maca, lucuma, sacha inchi), native potatoes, asparagus, avocados, and more"
+    "other": "Also available: Butter bean, maca, mung bean, lucuma, chia, powdered products, and many more"
   },
   "about": {
     "title": "Why Peru?",
@@ -78,8 +78,8 @@
     },
     "info": {
       "title": "Contact Information",
-      "email": "Email",
-      "phone": "Phone",
+      "email": "contact@quriorigins.co.site",
+      "phone": "+51 941 478 762",
       "location": "Location",
       "hours": "Business hours: Monday - Friday, 9:00 AM - 6:00 PM (PET)"
     }

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
-import heroImage from "@/assets/hero-andes.jpg";
+import heroImage from "@/assets/hero-peru.jpg";
 
 const Hero = () => {
   const { t } = useTranslation();
