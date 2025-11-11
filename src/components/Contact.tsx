@@ -1,7 +1,4 @@
 import { Mail, Phone, MapPin } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
 
@@ -20,47 +17,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          <div>
-            <h3 className="font-playfair text-2xl font-semibold mb-6 text-foreground">
-              {t('contact.form.title')}
-            </h3>
-            <form className="space-y-4">
-              <div>
-                <Input
-                  placeholder={t('contact.form.name')}
-                  className="font-inter"
-                />
-              </div>
-              <div>
-                <Input
-                  type="email"
-                  placeholder={t('contact.form.email')}
-                  className="font-inter"
-                />
-              </div>
-              <div>
-                <Input
-                  placeholder={t('contact.form.company')}
-                  className="font-inter"
-                />
-              </div>
-              <div>
-                <Textarea
-                  placeholder={t('contact.form.message')}
-                  rows={6}
-                  className="font-inter"
-                />
-              </div>
-              <Button
-                type="submit"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-inter"
-              >
-                {t('contact.form.submit')}
-              </Button>
-            </form>
-          </div>
-
+        <div className="max-w-2xl mx-auto">
           <div className="space-y-6">
             <h3 className="font-playfair text-2xl font-semibold mb-6 text-foreground">
               {t('contact.info.title')}
