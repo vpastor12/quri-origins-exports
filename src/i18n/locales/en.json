@@ -16,7 +16,7 @@
     "subtitle": "Comprehensive solutions for international agricultural trade",
     "export": {
       "title": "Export Trading",
-      "description": "Seamless facilitation of agricultural exports from Peru to global markets with full compliance and documentation support."
+      "description": "Comprehensive management of agricultural exports from Peru to global markets, with full support in regulatory compliance and documentation."
     },
     "brokerage": {
       "title": "Brokerage Services",
@@ -43,10 +43,10 @@
       "description": "Peruvian giant corn with large, tender kernels, perfect for traditional dishes and gourmet preparations."
     },
     "bean": {
-      "name": "Canary Bean",
-      "description": "Nutritious Peruvian canary beans, known for their creamy texture and mild, buttery flavor."
+      "name": "Tarwi (Lupinus mutabilis)",
+      "description": "High-protein Andean lupine beans, cultivated for centuries in Peru, known for their nutritional value and versatility."
     },
-    "other": "Also available: Butter bean, maca, mung bean, lucuma, chia, powdered products, and many more"
+    "other": "Also available: Lima bean, canary bean, maca, mung bean, lucuma, chia, powdered products, and many more"
   },
   "about": {
     "title": "Why Peru?",
