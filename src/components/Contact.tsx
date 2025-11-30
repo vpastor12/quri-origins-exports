@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-inter font-semibold mb-1 text-foreground">{t('contact.info.email')}</h4>
-                    <p className="font-inter text-muted-foreground">contact@quriorigins.co.site</p>
+                    <p className="font-inter text-muted-foreground">contact@quriorigins.com</p>
                   </div>
                 </div>
               </CardContent>
