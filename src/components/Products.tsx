@@ -1,21 +1,27 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
-import cornImage from "@/assets/corn.jpg";
 import beanImage from "@/assets/bean.jpg";
+import blackEyeBeanImage from "@/assets/black-eye-bean.jpg";
+import babyLimaBeanImage from "@/assets/baby-lima-bean.jpg";
 
 const Products = () => {
   const { t } = useTranslation();
 
   const products = [
     {
-      nameKey: "products.corn.name",
-      image: cornImage,
-      descriptionKey: "products.corn.description",
-    },
-    {
       nameKey: "products.bean.name",
       image: beanImage,
       descriptionKey: "products.bean.description",
+    },
+    {
+      nameKey: "products.blackEyeBean.name",
+      image: blackEyeBeanImage,
+      descriptionKey: "products.blackEyeBean.description",
+    },
+    {
+      nameKey: "products.babyLimaBean.name",
+      image: babyLimaBeanImage,
+      descriptionKey: "products.babyLimaBean.description",
     },
   ];
   return (
