@@ -1,6 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
-import quinoaImage from "@/assets/quinoa.jpg";
 import cornImage from "@/assets/corn.jpg";
 import beanImage from "@/assets/bean.jpg";
 
@@ -8,11 +7,6 @@ const Products = () => {
   const { t } = useTranslation();
 
   const products = [
-    {
-      nameKey: "products.quinoa.name",
-      image: quinoaImage,
-      descriptionKey: "products.quinoa.description",
-    },
     {
       nameKey: "products.corn.name",
       image: cornImage,
