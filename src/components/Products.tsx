@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import beanImage from "@/assets/bean.jpg";
 import blackEyeBeanImage from "@/assets/black-eye-bean.jpg";
 import babyLimaBeanImage from "@/assets/baby-lima-bean.jpg";
+import yellowBeanImage from "@/assets/yellow-bean.jpg";
 
 const Products = () => {
   const { t } = useTranslation();
@@ -22,6 +23,11 @@ const Products = () => {
       nameKey: "products.babyLimaBean.name",
       image: babyLimaBeanImage,
       descriptionKey: "products.babyLimaBean.description",
+    },
+    {
+      nameKey: "products.yellowBean.name",
+      image: yellowBeanImage,
+      descriptionKey: "products.yellowBean.description",
     },
   ];
   return (
