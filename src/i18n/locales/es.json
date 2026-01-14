@@ -34,10 +34,6 @@
   "products": {
     "title": "Productos Destacados",
     "subtitle": "Los mejores productos agrícolas de Perú, desde los Andes hasta la Amazonía",
-    "quinoa": {
-      "name": "Quinua",
-      "description": "Quinua orgánica premium en variedades blanca, roja y negra de granjas andinas de alta altitud."
-    },
     "corn": {
       "name": "Maíz Gigante",
       "description": "Maíz gigante peruano con granos grandes y tiernos, perfecto para platos tradicionales y preparaciones gourmet."
@@ -46,7 +42,7 @@
       "name": "Frijol Loctao",
       "description": "Frijoles loctao de primera calidad, una legumbre versátil rica en proteínas y nutrientes, perfecta para germinación y diversas aplicaciones culinarias."
     },
-    "other": "También disponibles: Pallar, frijol canario, maca, tarwi, lúcuma, chía, productos en polvo, y muchos más"
+    "other": "También disponibles: Quinua, pallar, frijol canario, maca, tarwi, lúcuma, chía, productos en polvo, y muchos más"
   },
   "about": {
     "title": "¿Por qué Perú?",
