@@ -46,7 +46,11 @@
       "name": "Baby Lima Bean",
       "description": "Tender baby lima beans with a buttery flavor and smooth texture, perfect for salads, side dishes, and gourmet preparations."
     },
-    "other": "Also available: Quinoa, giant corn, canary bean, maca, tarwi, lucuma, chia, powdered products, and many more"
+    "yellowBean": {
+      "name": "Yellow Bean",
+      "description": "Premium yellow beans with a creamy texture and mild, earthy flavor, ideal for stews, salads, and traditional Peruvian cuisine."
+    },
+    "other": "Also available: Giant corn, maca, and many more"
   },
   "about": {
     "title": "Why Peru?",

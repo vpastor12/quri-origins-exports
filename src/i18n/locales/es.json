@@ -46,7 +46,11 @@
       "name": "Pallar Bebé",
       "description": "Pallares bebé tiernos con sabor mantecoso y textura suave, perfectos para ensaladas, guarniciones y preparaciones gourmet."
     },
-    "other": "También disponibles: Quinua, maíz gigante, frijol canario, maca, tarwi, lúcuma, chía, productos en polvo, y muchos más"
+    "yellowBean": {
+      "name": "Frijol Canario",
+      "description": "Frijoles canario premium con textura cremosa y sabor suave y terroso, ideales para guisos, ensaladas y la cocina tradicional peruana."
+    },
+    "other": "También disponibles: Maíz gigante, maca, y muchos más"
   },
   "about": {
     "title": "¿Por qué Perú?",
